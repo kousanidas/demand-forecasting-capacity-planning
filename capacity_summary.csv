@@ -1,0 +1,4 @@
+,forecast order lines,units needed,unit,hours needed,hours available,max units (moulds/machines),utilisation %,people limit (x demand),mould/machine limit (x demand),runs out first
+Grating,2.7,715.4,m2,662.0,1189.0,1786.0,55.7,1.8,2.5,people
+Pressure Vessel,10.5,16.4,Nos,895.0,2252.0,18.9,39.7,2.52,1.15,moulds/machines
+Pultrusion,6.8,1725.4,m,692.0,1520.0,2194.8,45.5,2.2,1.27,moulds/machines
