@@ -33,7 +33,7 @@ The plant has three lines:
 
 ## What I did
 
-1. **Demand** - counted order lines per line per month from the order book (29 months), leaving out cancelled orders and pultruded grating (sold under Grating but made on the pultrusion line, and not in the tracker). I didn't use ordered quantity because it isn't realistic for vessels in that database (median 13.5 vessels per order line, max 2,443).
+1. **Demand** - counted order lines per line per month from the order book (29 months), leaving out cancelled orders and pultruded grating (sold under Grating but made on the pultrusion line, and not in the tracker). I counted lines rather than quantity because the order book mixes units (pieces, metres and square metres); the tracker converts lines into units later.
 2. **Forecast** - backtested four simple methods (last month, 3- and 6-month average, overall mean) on the last 17 months. The mean won for grating and pultrusion. For vessels the 6-month average and the mean were basically tied, so I took the 6-month average because it gives the higher (safer) number.
 3. **Cleaning** - fixed line names, dates, item names and quantities in the tracker, moved back 11 quantities that were typed into the Size column, and dropped 1 row that couldn't be recovered.
 4. **Hours needed vs available** - converted the forecast into standard hours using the tracker, and compared it with the hours people are actually present (after absence and a 16% allowance for breaks and delays).
@@ -91,7 +91,7 @@ I set the scope, brought the domain knowledge (the products, how the lines run, 
 - One shift a day is my assumption. Two shifts would roughly double the people limit.
 - The forecast errors are big (50-75% MAPE) because the counts are small - about 3 to 9 order lines a month per line.
 - Pultruded grating is left out, so the pultrusion load is a bit understated.
-- 4 hours a week of overtime is about 52 hours a quarter, already over the 50 hour cap in the Factories Act. The new labour code may have changed this; I still need to check.
+- 4 hours a week of overtime is about 52 hours a quarter. Under the OSH Code (in force since 21 Nov 2025, replacing the Factories Act) each state sets the overtime cap, and published caps include 50, 125 and 144 hours a quarter, so whether the scenario is allowed depends on the plant's state.
 
 ## How to run
 
