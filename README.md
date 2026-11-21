@@ -119,11 +119,11 @@ Six-page dashboard built from this project's outputs (synthetic data) in the Pow
 demand and forecast accuracy, capacity vs demand, utilisation scenarios, standard vs actual hours,
 production and absence, and downtime by reason.
 
-![Demand](power-bi/01_demand.png)
-![Capacity](power-bi/02_capacity.png)
-![Scenarios](power-bi/03_scenarios.png)
-![Standard hours](power-bi/04_standard_hours.png)
-![Production](power-bi/05_production.png)
-![Downtime](power-bi/06_downtime.png)
+![Demand](Power%20BI/Demand.png)
+![Capacity](Power%20BI/Capacity.png)
+![Scenarios](Power%20BI/Scenarios.png)
+![Standard hours](Power%20BI/Standard%20Hours.png)
+![Production](Power%20BI/Production.png)
+![Downtime](Power%20BI/Downtime.png)
 
-The .pbix file is in the power-bi folder (opens in Power BI Desktop).
+The .pbix file is in the Power BI folder (opens in Power BI Desktop).
