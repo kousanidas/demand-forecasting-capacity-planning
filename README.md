@@ -112,3 +112,18 @@ Run all cells. The notebook reads `o2c.db`, `Production_Tracker_RAW.xlsx` and `P
 | `o2c.db` | order book from my Order-to-Cash project |
 | `capacity.png`, `demand.png`, `scenarios.png` | charts |
 | `capacity_summary.csv`, `monthly_order_lines.csv`, `production_clean.csv`, `scenarios.csv`, `std_vs_actual.csv` | cleaned data and results (feed for a Power BI dashboard) |
+
+## Power BI dashboard
+
+Six-page dashboard built from this project's outputs (synthetic data) in the Power BI service:
+demand and forecast accuracy, capacity vs demand, utilisation scenarios, standard vs actual hours,
+production and absence, and downtime by reason.
+
+![Demand](power-bi/01_demand.png)
+![Capacity](power-bi/02_capacity.png)
+![Scenarios](power-bi/03_scenarios.png)
+![Standard hours](power-bi/04_standard_hours.png)
+![Production](power-bi/05_production.png)
+![Downtime](power-bi/06_downtime.png)
+
+The .pbix file is in the power-bi folder (opens in Power BI Desktop).
