@@ -126,4 +126,3 @@ production and absence, and downtime by reason.
 ![Production](Power%20BI/Production.png)
 ![Downtime](Power%20BI/Downtime.png)
 
-The .pbix file is in the Power BI folder (opens in Power BI Desktop).
