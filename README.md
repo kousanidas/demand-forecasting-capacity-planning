@@ -118,6 +118,7 @@ Run all cells. The notebook reads `o2c.db`, `Production_Tracker_RAW.xlsx` and `P
 Six-page dashboard built from this project's outputs (synthetic data) in the Power BI service:
 demand and forecast accuracy, capacity vs demand, utilisation scenarios, standard vs actual hours,
 production and absence, and downtime by reason.
+The .pbix file is in the Power BI folder (opens in Power BI Desktop).
 
 ![Demand](Power%20BI/Demand.png)
 ![Capacity](Power%20BI/Capacity.png)
